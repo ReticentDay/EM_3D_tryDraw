@@ -1,0 +1,9 @@
+D:\作業\EM\DrawThe3D\DrawThe3D\bin\Debug\DrawThe3D.exe.config
+D:\作業\EM\DrawThe3D\DrawThe3D\bin\Debug\DrawThe3D.exe
+D:\作業\EM\DrawThe3D\DrawThe3D\bin\Debug\DrawThe3D.pdb
+D:\作業\EM\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.csprojResolveAssemblyReference.cache
+D:\作業\EM\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.Form1.resources
+D:\作業\EM\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.Properties.Resources.resources
+D:\作業\EM\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.csproj.GenerateResource.Cache
+D:\作業\EM\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.exe
+D:\作業\EM\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.pdb
