@@ -99,11 +99,14 @@ namespace DrawThe3D
         public float getTurnX() { return sing.turnX; }
         public float getTurnY() { return sing.turnY; }
         public float getTurnZ() { return sing.turnZ; }
+
         public void setTurnX(float turnX, float turnY, float turnZ) {
             sing.turnX = turnX;
             sing.turnY = turnY;
             sing.turnZ = turnZ;
         }
+
+        //3D轉2D
         public void count322(float p,ref Point []xyList,xyz []pointList)
         {
             for (int i = 0; i < pointList.Length; i++) {
@@ -114,8 +117,10 @@ namespace DrawThe3D
                 xyList[i].Y = 200 - xyList[i].Y;
             }
         }
+        public xyz[] reXYZList;
+        //旋轉
         public xyz[] turnAround() {
-            xyz[] reXYZList = new xyz[pointList.Length];
+            reXYZList = new xyz[pointList.Length];
             reXYZList[0] = pointList[0];
             turn sings = new turn();
             sings.turnX = sing.turnX * (float)3.1416 / 180;
@@ -136,8 +141,8 @@ namespace DrawThe3D
                 float y2 = (float)(y1 * Math.Cos(sings.turnX) - z1 * Math.Sin(sings.turnX));
                 float z2 = (float)(y1 * Math.Sin(sings.turnX) + z1 * Math.Cos(sings.turnX));
                 //旋轉Z軸
-                float x3 = (float)(x2 * Math.Cos(sings.turnX) - y2 * Math.Sin(sings.turnX));
-                float y3 = (float)(x2 * Math.Sin(sings.turnX) + y2 * Math.Cos(sings.turnX));
+                float x3 = (float)(x2 * Math.Cos(sings.turnZ) - y2 * Math.Sin(sings.turnZ));
+                float y3 = (float)(x2 * Math.Sin(sings.turnZ) + y2 * Math.Cos(sings.turnZ));
                 float z3 = z2;
                 //點位往回推
                 reXYZList[i] = new xyz();
@@ -147,7 +152,10 @@ namespace DrawThe3D
             }
             return reXYZList;
         }
+
         public static float p;
+
+        //印出，可複寫
         public virtual void printIt(ref Graphics printP, Pen printPen,Brush printBrush)
         {
             Point[] xyList = new Point[1];

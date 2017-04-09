@@ -99,7 +99,7 @@ namespace DrawThe3D
         public Box3D(float onX, float onY, float onZ, float height, float weight,float lon)
         {
             pointList = new xyz[8];
-            Name = "Rectangle";
+            Name = "Box";
             pointList[0] = new xyz(); pointList[0].x = onX; pointList[0].y = onY; pointList[0].z = onZ;
             pointList[1] = new xyz(); pointList[1].x = onX + height; pointList[1].y = onY; pointList[1].z = onZ;
             pointList[2] = new xyz(); pointList[2].x = onX + height; pointList[2].y = onY + weight; pointList[2].z = onZ;
@@ -120,6 +120,8 @@ namespace DrawThe3D
             pointList[6].x = onX + height; pointList[6].y = onY + weight; pointList[6].z = onZ + lon;
             pointList[7].x = onX; pointList[7].y = onY + weight; pointList[7].z = onZ + lon;
         }
+
+        //印出
         public override void printIt(ref Graphics printP, Pen printPen, Brush printBrush)
         {
             Point[] xyList = new Point[8];

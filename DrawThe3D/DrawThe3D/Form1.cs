@@ -14,6 +14,16 @@ namespace DrawThe3D
     {
         List<Draw3D> drawList = new List<Draw3D>();
 
+        void showNow() {
+            pointText.Text = "";
+            for (int i = 0; i < drawList[objectList.SelectedIndex].pointList.Length; i++) {
+                pointText.Text += "Point[" + i + "]:\r\n";
+                pointText.Text += (int)drawList[objectList.SelectedIndex].reXYZList[i].x + " ";
+                pointText.Text += (int)drawList[objectList.SelectedIndex].reXYZList[i].y + " ";
+                pointText.Text += (int)drawList[objectList.SelectedIndex].reXYZList[i].z + "\r\n";
+            }
+        }
+
         void drawIt() {
             Draw3D.p = -100;
             Graphics print3D = DisplayScreen.CreateGraphics();
@@ -25,6 +35,7 @@ namespace DrawThe3D
             {
                 drawList[i].printIt(ref print3D, new Pen(Brushes.Red), Brushes.Pink);
             }
+            showNow();
         }
 
         public Form1()

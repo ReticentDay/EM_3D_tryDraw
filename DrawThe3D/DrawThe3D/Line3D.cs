@@ -68,6 +68,8 @@ namespace DrawThe3D
             pointList[1].y = toY;
             pointList[1].z = toZ;
         }
+
+        //印出
         public override void printIt(ref Graphics printP, Pen printPen, Brush printBrush)
         {
             Point[] xyList = new Point[2];

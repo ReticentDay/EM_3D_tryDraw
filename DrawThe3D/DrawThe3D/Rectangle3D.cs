@@ -88,6 +88,7 @@ namespace DrawThe3D
                 
             }
         }
+
         public Rectangle3D(xyz r1, xyz r2,xyz r3,xyz r4)
         {
             pointList = new xyz[4];
@@ -111,6 +112,8 @@ namespace DrawThe3D
             pointList[2].x = onX + height; pointList[2].y = onY + weight; pointList[2].z = onZ;
             pointList[3].x = onX; pointList[3].y = onY + weight; pointList[3].z = onZ;
         }
+
+        //印出
         public override void printIt(ref Graphics printP, Pen printPen, Brush printBrush)
         {
             Point[] xyList = new Point[4];

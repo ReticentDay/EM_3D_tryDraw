@@ -7,3 +7,12 @@ D:\作業\EM\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.Properties.Resources.resour
 D:\作業\EM\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.csproj.GenerateResource.Cache
 D:\作業\EM\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.exe
 D:\作業\EM\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.pdb
+D:\work\EM_3D_tryDraw\DrawThe3D\DrawThe3D\bin\Debug\DrawThe3D.exe.config
+D:\work\EM_3D_tryDraw\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.exe
+D:\work\EM_3D_tryDraw\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.pdb
+D:\work\EM_3D_tryDraw\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.csprojResolveAssemblyReference.cache
+D:\work\EM_3D_tryDraw\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.Form1.resources
+D:\work\EM_3D_tryDraw\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.Properties.Resources.resources
+D:\work\EM_3D_tryDraw\DrawThe3D\DrawThe3D\obj\Debug\DrawThe3D.csproj.GenerateResource.Cache
+D:\work\EM_3D_tryDraw\DrawThe3D\DrawThe3D\bin\Debug\DrawThe3D.exe
+D:\work\EM_3D_tryDraw\DrawThe3D\DrawThe3D\bin\Debug\DrawThe3D.pdb
